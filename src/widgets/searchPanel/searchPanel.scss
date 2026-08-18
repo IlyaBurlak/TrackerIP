@@ -1,0 +1,40 @@
+.search-panel{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1rem;
+
+  min-width: 300px;
+
+  gap: 10px;
+
+  border-radius: 20px;
+  border: mediumpurple solid 1px;
+
+  font-size: 20px;
+
+
+  &__input{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+
+    font-size: inherit;
+
+
+    border: none;
+    border-radius: 10px;
+  }
+
+
+  &__button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: inherit;
+
+  }
+
+}
