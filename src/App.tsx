@@ -1,13 +1,13 @@
 import { observer } from 'mobx-react-lite'
 import './App.scss'
 
-import {SearchPanel} from "./widgets/searchPanel/SearchPanel.tsx";
+import {HomePage} from "./pages/home/HomePage.tsx";
 
 export const App = observer(() => {
 
   return (
       <div className="App">
-          <SearchPanel/>
+          <HomePage/>
       </div>
   )
 
